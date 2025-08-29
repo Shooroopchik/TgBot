@@ -8,8 +8,6 @@ from telegram.ext import (
     filters,
     ContextTypes,
 )
-from dotenv import load_dotenv
-import os
 
 # Загружаем токен
 load_dotenv()
@@ -155,4 +153,5 @@ def main():
     app.run_polling()
 
 if __name__ == "__main__":
+
     main()
